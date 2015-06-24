@@ -1,0 +1,425 @@
+﻿{
+	"qsbl": {
+		"standings": {
+			"Balls Deep": {"w": 1,"l": 0,"t": 0},
+			"diamond dogs": {"w": 1,"l": 0,"t": 0},
+			"menace": {"w": 1,"l": 0,"t": 0},
+			"rebels": {"w": 1,"l": 0,"t": 0},
+			"strikers": {"w": 1,"l": 0,"t": 0},
+			"the agency group": {"w": 1,"l": 0,"t": 0},
+			"crushers": {"w": 0,"l": 0,"t": 1},
+			"the batmen": {"w": 0,"l": 0,"t": 1},
+			"done right inn": {"w": 0,"l": 1,"t": 0},
+			"horseshoe fury": {"w": 0,"l": 1,"t": 0},
+			"levack block": {"w": 0,"l": 1,"t": 0},
+			"shoes": {"w": 0,"l": 1,"t": 0},
+			"squirly's": {"w": 0,"l": 1,"t": 0},
+			"stiffs": {"w": 0,"l": 1,"t": 0}
+		},
+
+		"schedule": {
+			"May 5": {
+				"Trinity North": {
+					"away": { "name": "Levack Block", "result": null },
+					"home": { "name": "Diamond Dogs", "result": null }
+				},
+				"Trinity Centre": {
+					"away": { "name": "Stiffs", "result": null },
+					"home": { "name": "Menace", "result": null }
+				},
+				"Trinity South": {
+					"away": { "name": "Cowboys", "result": null },
+					"home": { "name": "Horseshoe Fury", "result": null }
+				},
+				"Stanley": {
+					"away": { "name": "Crushers", "result": null },
+					"home": { "name": "Batmen", "result": null }
+				},
+				"Sorauren": {
+					"away": { "name": "Shoes", "result": null },
+					"home": { "name": "The Agency Group", "result": null }
+				},
+				"Dovercourt": {
+					"away": { "name": "Strikers", "result": null },
+					"home": { "name": "Squirly's", "result": null }
+				},
+				"Bickford": {
+					"away": { "name": "Done Right Inn", "result": null },
+					"home": { "name": "Rebels", "result": null }
+				}
+			},
+
+			"May 12": {
+				"Trinity North": {
+					"away": { "name": "The Agency Group", "result": null },
+					"home": { "name": "Menace", "result": null }
+				},
+				"Trinity Centre": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity South": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Stanley": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Sorauren": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Dovercourt": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Bickford": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				}
+			},
+
+			"May 26": {
+				"Trinity North": {
+					"location" : "Trinity North",
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity Centre": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity South": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Stanley": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Sorauren": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Dovercourt": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "The Agency Group", "result": null }
+				},
+				"Bickford": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				}
+			},
+
+			"June 2": {
+				"Trinity North": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "The Agency Group", "result": null }
+				},
+				"Trinity Centre": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity South": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Stanley": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Sorauren": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Dovercourt": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Bickford": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				}
+			},
+
+			"June 9": {
+				"Trinity North": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity Centre": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity South": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Stanley": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "The Agency Group", "result": null }
+				},
+				"Sorauren": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Dovercourt": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Bickford": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				}
+			},
+
+			"June 16": {
+				"Trinity North": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity Centre": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity South": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "The Agency Group", "result": null }
+				},
+				"Stanley": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Sorauren": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Dovercourt": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Bickford": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				}
+			},
+
+			"June 23": {
+				"Trinity North": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity Centre": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity South": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Stanley": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Sorauren": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Dovercourt": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Bickford": {
+					"away": { "name": "The Agency Group", "result": null },
+					"home": { "name": "", "result": null }
+				}
+			},
+
+			"July 7": {
+				"Trinity North": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity Centre": {
+					"away": { "name": "The Agency Group", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity South": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Stanley": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Sorauren": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Dovercourt": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Bickford": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				}
+			},
+
+			"July 14": {
+				"Trinity North": {
+					"away": { "name": "The Agency Group", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity Centre": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity South": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Stanley": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Sorauren": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Dovercourt": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Bickford": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				}
+			},
+
+			"July 21": {
+				"Trinity North": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity Centre": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity South": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Stanley": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Sorauren": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Dovercourt": {
+					"away": { "name": "The Agency Group", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Bickford": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				}
+			},
+
+			"July 28": {
+				"Trinity North": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity Centre": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity South": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Stanley": {
+					"away": { "name": "The Agency Group", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Sorauren": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Dovercourt": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Bickford": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				}
+			},
+
+			"Aug 11": {
+				"Trinity North": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity Centre": {
+					"away": { "name": "The Agency Group", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity South": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Stanley": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Sorauren": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Dovercourt": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Bickford": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				}
+			},
+			"Aug 18": {
+				"Trinity North": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity Centre": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity South": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Stanley": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Sorauren": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "The Agency Group", "result": null }
+				},
+				"Dovercourt": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Bickford": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				}
+			}
+		}
+	}
+}
