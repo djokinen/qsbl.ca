@@ -2,11 +2,25 @@
 	window.open("popup.htm?" + sPicURL, "", "resizable=1,HEIGHT=200,WIDTH=200");
 }
 
-initSchedule = function () {
+_init = function () {
 
-	_loadData();
+	// Assign handlers immediately after making the request, and remember the jqxhr object for this request
+	var jqxhr = $.getJSON("data/data.json", function (json) {
+		_standings(json.qsbl.standings);
+		_schedule(json.qsbl.schedule);
+	})
+	.done(function () { console.log("done"); })
+	.fail(function () { console.log("fail"); })
+	.always(function () { console.log("always"); });
 
-	_showCurrentSchedule();
+	// perform other work here ...
+
+	// Set another completion function for the request above
+	jqxhr.complete(function () {
+		console.log("complete");
+		alert("add month  and day data attributes so we know what to show/hide")
+		_showCurrentSchedule();
+	});
 
 	$("#prev_week").click(function (e) {
 		e.preventDefault();
@@ -17,22 +31,6 @@ initSchedule = function () {
 		e.preventDefault();
 		_showNextWeek();
 	});
-};
-
-_loadData = function () {
-	// Assign handlers immediately after making the request, and remember the jqxhr object for this request
-	var jqxhr = $.getJSON("data/data.json", function (json) {
-		_standings(json.qsbl.standings);
-		// _schedule(json.qsbl.schedule);
-	})
-	.done(function () { console.log("done"); })
-	.fail(function () { console.log("fail"); })
-	.always(function () { console.log("always"); });
-
-	// perform other work here ...
-
-	// Set another completion function for the request above
-	jqxhr.complete(function () { console.log("complete"); });
 };
 
 function _standings(standings) {
@@ -46,6 +44,46 @@ function _standings(standings) {
 	}).appendTo('#standings');
 }
 
+function _schedule(schedule) {
+	var items = [];
+	var tr;
+
+	var tableHeader = $("<thead><tr><th>Location</th><th>Away</th><th>Home</th></tr></thead>");
+
+	/* 
+	*	key = date, 
+	*	value = location 
+	*/
+	$.each(schedule, function (key, val, index) {
+		items.push('<div class="schedule">');
+		items.push('<h3>' + key + '</h3>');
+		items.push('<table>');
+		items.push('<thead><tr><th>Location</th><th>Away</th><th>Home</th></tr></thead>');
+		items.push('<tbody>');
+
+		/* 
+		*	key = location, 
+		*	value = teams 
+		*/
+		$.each(val, function (key, location) {
+			/*
+			*	key = location
+			*	location.away.name, location.away.result
+			*	location.home.name, location.home.result
+			*/
+			items.push('<tr><td>' + key + '</td><td>' + location.away.name + '</td><td>' + location.away.name + '</td></tr>');
+
+			// items.push('<tr><td>' + key + '</td><td>' + val.w + '</td><td>' + val.l + '</td><td>' + val.t + '</td><td>' + ((val.w * 2) + (val.t)) + '</td></tr>');
+		});
+		items.push('</tbody>');
+		items.push('</table>');
+		items.push('</div>');
+	});
+
+	$(items.join('')).appendTo($('#schedules'));
+
+	$('#schedules').parent().trigger('create');
+}
 
 _showCurrentSchedule = function () {
 	var d = new Date();
