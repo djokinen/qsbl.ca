@@ -18,7 +18,7 @@
 		},
 
 		"schedule": {
-			"May 5": {
+			"2015-07-15": {
 				"Trinity North": {
 					"away": { "name": "Levack Block", "result": null },
 					"home": { "name": "Diamond Dogs", "result": null }
@@ -49,7 +49,7 @@
 				}
 			},
 
-			"May 12": {
+			"2015-05-12": {
 				"Trinity North": {
 					"away": { "name": "The Agency Group", "result": null },
 					"home": { "name": "Menace", "result": null }
@@ -80,7 +80,7 @@
 				}
 			},
 
-			"May 26": {
+			"2015-05-26": {
 				"Trinity North": {
 					"location" : "Trinity North",
 					"away": { "name": "", "result": null },
@@ -112,7 +112,7 @@
 				}
 			},
 
-			"June 2": {
+			"2015-06-02": {
 				"Trinity North": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "The Agency Group", "result": null }
@@ -143,7 +143,7 @@
 				}
 			},
 
-			"June 9": {
+			"2015-6-9": {
 				"Trinity North": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }

@@ -55,8 +55,15 @@ function _schedule(schedule) {
 	*	value = location 
 	*/
 	$.each(schedule, function (key, val, index) {
-		items.push('<div class="schedule">');
-		items.push('<h3>' + key + '</h3>');
+
+		var dateArray = key.split("-");
+		var scheduleDate = new Date(dateArray[0], dateArray[1] -1, dateArray[2]);
+		console.log("Key: " + key + "\nDate:" + scheduleDate);
+
+		items.push('<div class="schedule" data-date="' + scheduleDate.toDateString() + '">');
+		/*<div class="schedule" data-month="5" data-day="3">*/
+
+		items.push('<h3>' + scheduleDate.toDateString() + '</h3>');
 		items.push('<table>');
 		items.push('<thead><tr><th>Location</th><th>Away</th><th>Home</th></tr></thead>');
 		items.push('<tbody>');
@@ -86,6 +93,7 @@ function _schedule(schedule) {
 }
 
 _showCurrentSchedule = function () {
+	alert('get date from data-date');
 	var d = new Date();
 	var this_day = d.getDate();
 	var this_month = d.getMonth() + 1;
