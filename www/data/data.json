@@ -18,7 +18,7 @@
 		},
 
 		"schedule": {
-			"2015-07-15": {
+			"2015-05-03": {
 				"Trinity North": {
 					"away": { "name": "Levack Block", "result": null },
 					"home": { "name": "Diamond Dogs", "result": null }
@@ -39,7 +39,7 @@
 					"away": { "name": "Shoes", "result": null },
 					"home": { "name": "The Agency Group", "result": null }
 				},
-				"Dovercourt": {
+				"McGregor": {
 					"away": { "name": "Strikers", "result": null },
 					"home": { "name": "Squirly's", "result": null }
 				},
@@ -49,7 +49,7 @@
 				}
 			},
 
-			"2015-05-12": {
+			"2015-05-10": {
 				"Trinity North": {
 					"away": { "name": "The Agency Group", "result": null },
 					"home": { "name": "Menace", "result": null }
@@ -70,7 +70,7 @@
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},
-				"Dovercourt": {
+				"McGregor": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},
@@ -80,7 +80,7 @@
 				}
 			},
 
-			"2015-05-26": {
+			"2015-05-24": {
 				"Trinity North": {
 					"location" : "Trinity North",
 					"away": { "name": "", "result": null },
@@ -102,7 +102,7 @@
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},
-				"Dovercourt": {
+				"McGregor": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "The Agency Group", "result": null }
 				},
@@ -112,7 +112,7 @@
 				}
 			},
 
-			"2015-06-02": {
+			"2015-06-07": {
 				"Trinity North": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "The Agency Group", "result": null }
@@ -133,7 +133,7 @@
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},
-				"Dovercourt": {
+				"McGregor": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},
@@ -143,7 +143,7 @@
 				}
 			},
 
-			"2015-6-9": {
+			"2015-06-14": {
 				"Trinity North": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
@@ -164,7 +164,7 @@
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},
-				"Dovercourt": {
+				"McGregor": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},
@@ -174,7 +174,7 @@
 				}
 			},
 
-			"June 16": {
+			"2015-06-21": {
 				"Trinity North": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
@@ -195,7 +195,7 @@
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},
-				"Dovercourt": {
+				"McGregor": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},
@@ -205,7 +205,7 @@
 				}
 			},
 
-			"June 23": {
+			"2015-07-05": {
 				"Trinity North": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
@@ -226,7 +226,7 @@
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},
-				"Dovercourt": {
+				"McGregor": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},
@@ -236,7 +236,7 @@
 				}
 			},
 
-			"July 7": {
+			"2015-07-12": {
 				"Trinity North": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
@@ -257,7 +257,7 @@
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},
-				"Dovercourt": {
+				"McGregor": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},
@@ -267,9 +267,40 @@
 				}
 			},
 
-			"July 14": {
+			"2015-07-19": {
 				"Trinity North": {
-					"away": { "name": "The Agency Group", "result": null },
+					"away": { "name": "Rebels", "result": null },
+					"home": { "name": "Balls Deep", "result": null }
+				},
+				"Trinity Centre": {
+					"away": { "name": "Cameron House", "result": null },
+					"home": { "name": "Horshoe Fury", "result": null }
+				},
+				"Trinity South": {
+					"away": { "name": "Menace", "result": null },
+					"home": { "name": "LeVack Block", "result": null }
+				},
+				"Stanley": {
+					"away": { "name": "Crushers", "result": null },
+					"home": { "name": "Done Right Inn", "result": null }
+				},
+				"Sorauren": {
+					"away": { "name": "Strikers", "result": null },
+					"home": { "name": "Stiffs", "result": null }
+				},
+				"McGregor": {
+					"away": { "name": "Shoes", "result": null },
+					"home": { "name": "Diamond Dogs", "result": null }
+				},
+				"Bickford": {
+					"away": { "name": "Batmen", "result": null },
+					"home": { "name": "Squirly's", "result": null }
+				}
+			},
+
+			"2015-07-26": {
+				"Trinity North": {
+					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},
 				"Trinity Centre": {
@@ -288,38 +319,7 @@
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},
-				"Dovercourt": {
-					"away": { "name": "", "result": null },
-					"home": { "name": "", "result": null }
-				},
-				"Bickford": {
-					"away": { "name": "", "result": null },
-					"home": { "name": "", "result": null }
-				}
-			},
-
-			"July 21": {
-				"Trinity North": {
-					"away": { "name": "", "result": null },
-					"home": { "name": "", "result": null }
-				},
-				"Trinity Centre": {
-					"away": { "name": "", "result": null },
-					"home": { "name": "", "result": null }
-				},
-				"Trinity South": {
-					"away": { "name": "", "result": null },
-					"home": { "name": "", "result": null }
-				},
-				"Stanley": {
-					"away": { "name": "", "result": null },
-					"home": { "name": "", "result": null }
-				},
-				"Sorauren": {
-					"away": { "name": "", "result": null },
-					"home": { "name": "", "result": null }
-				},
-				"Dovercourt": {
+				"McGregor": {
 					"away": { "name": "The Agency Group", "result": null },
 					"home": { "name": "", "result": null }
 				},
@@ -329,7 +329,7 @@
 				}
 			},
 
-			"July 28": {
+			"2015-08-09": {
 				"Trinity North": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
@@ -350,7 +350,7 @@
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},
-				"Dovercourt": {
+				"McGregor": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},
@@ -360,7 +360,7 @@
 				}
 			},
 
-			"Aug 11": {
+			"2015-08-16": {
 				"Trinity North": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
@@ -381,7 +381,7 @@
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},
-				"Dovercourt": {
+				"McGregor": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},
@@ -390,7 +390,7 @@
 					"home": { "name": "", "result": null }
 				}
 			},
-			"Aug 18": {
+			"2015-08-23": {
 				"Trinity North": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
@@ -411,7 +411,37 @@
 					"away": { "name": "", "result": null },
 					"home": { "name": "The Agency Group", "result": null }
 				},
-				"Dovercourt": {
+				"McGregor": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Bickford": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				}
+			},
+			"2015-08-30": {
+				"Trinity North": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity Centre": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Trinity South": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Stanley": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "", "result": null }
+				},
+				"Sorauren": {
+					"away": { "name": "", "result": null },
+					"home": { "name": "The Agency Group", "result": null }
+				},
+				"McGregor": {
 					"away": { "name": "", "result": null },
 					"home": { "name": "", "result": null }
 				},

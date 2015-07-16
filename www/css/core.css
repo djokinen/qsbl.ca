@@ -103,6 +103,7 @@ header h1 {
 table {
 	width: 100%;
 	margin-bottom: 1em;
+	text-transform: capitalize;
 }
 
 	table.standings {

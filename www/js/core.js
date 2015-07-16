@@ -18,7 +18,6 @@ _init = function () {
 	// Set another completion function for the request above
 	jqxhr.complete(function () {
 		console.log("complete");
-		alert("add month  and day data attributes so we know what to show/hide")
 		_showCurrentSchedule();
 	});
 
@@ -57,11 +56,9 @@ function _schedule(schedule) {
 	$.each(schedule, function (key, val, index) {
 
 		var dateArray = key.split("-");
-		var scheduleDate = new Date(dateArray[0], dateArray[1] -1, dateArray[2]);
-		console.log("Key: " + key + "\nDate:" + scheduleDate);
+		var scheduleDate = new Date(dateArray[0], dateArray[1] - 1, dateArray[2]);
 
 		items.push('<div class="schedule" data-date="' + scheduleDate.toDateString() + '">');
-		/*<div class="schedule" data-month="5" data-day="3">*/
 
 		items.push('<h3>' + scheduleDate.toDateString() + '</h3>');
 		items.push('<table>');
@@ -76,9 +73,8 @@ function _schedule(schedule) {
 			/*
 			*	key = location
 			*	location.away.name, location.away.result
-			*	location.home.name, location.home.result
-			*/
-			items.push('<tr><td>' + key + '</td><td>' + location.away.name + '</td><td>' + location.away.name + '</td></tr>');
+			*	location.home.name, location.home.result */
+			items.push('<tr><td>' + key + '</td><td>' + location.away.name + '</td><td>' + location.home.name + '</td></tr>');
 
 			// items.push('<tr><td>' + key + '</td><td>' + val.w + '</td><td>' + val.l + '</td><td>' + val.t + '</td><td>' + ((val.w * 2) + (val.t)) + '</td></tr>');
 		});
@@ -93,18 +89,13 @@ function _schedule(schedule) {
 }
 
 _showCurrentSchedule = function () {
-	alert('get date from data-date');
-	var d = new Date();
-	var this_day = d.getDate();
-	var this_month = d.getMonth() + 1;
+	var this_date = new Date();
 
 	$("div.schedule").hide();
 
 	$("div.schedule").each(function (index) {
-		var that_day = $(this).data("day");
-		var that_month = $(this).data("month");
-
-		if (this_month < that_month || this_day < that_day) {
+		var that_date = new Date($(this).data("date"));
+		if (this_date < that_date) {
 			$(this).show().addClass("active");
 			return false;
 		}
