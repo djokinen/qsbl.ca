@@ -1,20 +1,20 @@
 ﻿{
 	"qsbl": {
 		"standings": {
-			"Balls Deep": {"w": 1,"l": 0,"t": 0},
-			"diamond dogs": {"w": 1,"l": 0,"t": 0},
-			"menace": {"w": 1,"l": 0,"t": 0},
-			"rebels": {"w": 1,"l": 0,"t": 0},
-			"strikers": {"w": 1,"l": 0,"t": 0},
-			"the agency group": {"w": 1,"l": 0,"t": 0},
-			"crushers": {"w": 0,"l": 0,"t": 1},
-			"the batmen": {"w": 0,"l": 0,"t": 1},
-			"done right inn": {"w": 0,"l": 1,"t": 0},
-			"horseshoe fury": {"w": 0,"l": 1,"t": 0},
-			"levack block": {"w": 0,"l": 1,"t": 0},
-			"shoes": {"w": 0,"l": 1,"t": 0},
-			"squirly's": {"w": 0,"l": 1,"t": 0},
-			"stiffs": {"w": 0,"l": 1,"t": 0}
+			"balls deep": {"w": 8,"l": 0,"t": 0},
+			"shoes": {"w": 6,"l": 0,"t": 1},
+			"diamond dogs": {"w": 6,"l": 2,"t": 0},
+			"levack block": {"w": 5,"l": 3,"t": 0},			
+			"menace": {"w": 5,"l": 3,"t": 0},
+			"rebels": {"w": 5,"l": 3,"t": 0},
+			"squirly's": {"w": 4,"l": 3,"t": 1},
+			"the batmen": {"w": 4,"l": 4,"t": 0},
+			"horseshoe fury": {"w": 4,"l": 4,"t": 0},
+			"cameron house": {"w": 3,"l": 4,"t": 0},
+			"crushers": {"w": 3,"l": 5,"t": 0},			
+			"stiffs": {"w": 1,"l": 7,"t": 0},
+			"done right inn": {"w": 0,"l": 8,"t": 0},
+			"strikers": {"w": 0,"l": 8,"t": 0}
 		},
 
 		"schedule": {
@@ -300,63 +300,63 @@
 
 			"2015-07-26": {
 				"Trinity North": {
-					"away": { "name": "", "result": null },
-					"home": { "name": "", "result": null }
+					"away": { "name": "cameron house", "result": null },
+					"home": { "name": "menace", "result": null }
 				},
 				"Trinity Centre": {
-					"away": { "name": "", "result": null },
-					"home": { "name": "", "result": null }
+					"away": { "name": "rebels", "result": null },
+					"home": { "name": "crushers", "result": null }
 				},
 				"Trinity South": {
-					"away": { "name": "", "result": null },
-					"home": { "name": "", "result": null }
+					"away": { "name": "shoes", "result": null },
+					"home": { "name": "strikers", "result": null }
 				},
 				"Stanley": {
-					"away": { "name": "", "result": null },
-					"home": { "name": "", "result": null }
+					"away": { "name": "horshoe fury", "result": null },
+					"home": { "name": "diamond dogs", "result": null }
 				},
 				"Sorauren": {
-					"away": { "name": "", "result": null },
-					"home": { "name": "", "result": null }
+					"away": { "name": "batmen", "result": null },
+					"home": { "name": "levack block", "result": null }
 				},
 				"McGregor": {
-					"away": { "name": "The Agency Group", "result": null },
-					"home": { "name": "", "result": null }
+					"away": { "name": "done right inn", "result": null },
+					"home": { "name": "stiffs", "result": null }
 				},
 				"Bickford": {
-					"away": { "name": "", "result": null },
-					"home": { "name": "", "result": null }
+					"away": { "name": "balls deep", "result": null },
+					"home": { "name": "squirly's", "result": null }
 				}
 			},
 
 			"2015-08-09": {
 				"Trinity North": {
-					"away": { "name": "", "result": null },
-					"home": { "name": "", "result": null }
+					"away": { "name": "rebels", "result": null },
+					"home": { "name": "stiffs", "result": null }
 				},
 				"Trinity Centre": {
-					"away": { "name": "", "result": null },
-					"home": { "name": "", "result": null }
+					"away": { "name": "diamond dogs", "result": null },
+					"home": { "name": "strikers", "result": null }
 				},
 				"Trinity South": {
-					"away": { "name": "", "result": null },
-					"home": { "name": "", "result": null }
+					"away": { "name": "done right inn", "result": null },
+					"home": { "name": "shoes", "result": null }
 				},
 				"Stanley": {
-					"away": { "name": "The Agency Group", "result": null },
-					"home": { "name": "", "result": null }
+					"away": { "name": "balls deep", "result": null },
+					"home": { "name": "levack block", "result": null }
 				},
 				"Sorauren": {
-					"away": { "name": "", "result": null },
-					"home": { "name": "", "result": null }
+					"away": { "name": "squirly's", "result": null },
+					"home": { "name": "crushers", "result": null }
 				},
 				"McGregor": {
-					"away": { "name": "", "result": null },
-					"home": { "name": "", "result": null }
+					"away": { "name": "batmen", "result": null },
+					"home": { "name": "cameron house", "result": null }
 				},
 				"Bickford": {
-					"away": { "name": "", "result": null },
-					"home": { "name": "", "result": null }
+					"away": { "name": "horseshoe fury", "result": null },
+					"home": { "name": "menace", "result": null }
 				}
 			},
 
